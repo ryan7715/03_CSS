@@ -9,9 +9,9 @@
 }
 
 .repeat {
-                      /* 가로 세로 */
+    /* 가로 세로 */
     background-size: 60px 120px;
-                    /* 한 칸으로 줄여서 쓰면 가로 세로 */
+    /* 한 칸으로 줄여서 쓰면 가로 세로 */
     /* background-image는 반복 출력이 기본값 */
 }
 
@@ -52,8 +52,8 @@
     /* radial-gradient는 방사형 그라데이션 circle(중심점), ellipse(타원형) */
     /* conic-gradient는 완주형 그라데이션 : 위치값이 없음 */
     background: linear-gradient(to right, rgb(14, 44, 205), rgb(135, 74, 22));
-   color: white;
-   font-size: 24px;
+    color: white;
+    font-size: 24px;
     font-weight: bold;
     padding: 30px;
     text-align: center;

@@ -16,9 +16,9 @@ html { font-size: 16px; }  /* 브라우저 기본 값으로 font-size 16px이 �
 .box { font-size: 20px; }
 .em { font-size: 1.5em; } /* 부모인 .box div의 글자 크기인 20px의 1.5배 */
 .rem { font-size: 1.5rem; } /* 부모는 무시하고, 최상단 html의 글자 클기의 1.5배 */
-                           /*
-                           rem을 쓰는 이유는 html의 font-size만 바꾸면
-                           화면 전체에 존재하는 폰트 크기를 일괄 변경 가능
-                            */
+/*
+rem을 쓰는 이유는 html의 font-size만 바꾸면
+화면 전체에 존재하는 폰트 크기를 일괄 변경 가능
+ */
 
 .vw { width: 50vw; }

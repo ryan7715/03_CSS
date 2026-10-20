@@ -108,9 +108,9 @@ body {
 }
 
 .photo-box {
-     height: calc((100% - 24px) / 3 );
-     gap: 24px;
- }
+    height: calc((100% - 24px) / 3 );
+    gap: 24px;
+}
 
 .img-card {
     flex: 1;
@@ -181,11 +181,11 @@ body {
 
 
 .img-1 {
-        background-image: url("https://images.unsplash.com/photo-1662947475980-4ef86d494b20?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-image: url("https://images.unsplash.com/photo-1662947475980-4ef86d494b20?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
 }
 
 .img-2 {
-        background-image: url("https://images.unsplash.com/photo-1572029117144-b991c2eaee93?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-image: url("https://images.unsplash.com/photo-1572029117144-b991c2eaee93?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
 }
 
 .img-3 {

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="02-combinator.css"/>
+</head>
+<body>
+<h2>div p (자손)</h2>
+<div class="box decedent">
+    <p>A</p>
+    <section>
+        <p>
+            B (손자)</p>
+    </section>
+    <P>C</P>
+</div>
+
+<h2>div &gt; p (자식)</h2>
+<div class="box child">
+    <p>A</p>
+    <section>
+        <p>B (손자)</p>
+    </section>
+    <P>C</P>
+</div>
+
+<h2>div + p (인접 형제)</h2>
+<div class="box adjacent">
+    <p>A</p>
+    <section>
+        <p>B (손자)</p>
+    </section>
+    <P>C</P>
+    <p>D</p>
+</div>
+
+
+<h2>p~p (일반 형제)</h2>
+<div class="box sibling">
+    <p>A</p>
+    <section>
+        <p>B (손자)</p>
+    </section>
+    <P>C</P>
+    <p>D</p>
+</div>
+</body>
+</html>
