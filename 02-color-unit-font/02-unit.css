@@ -1,0 +1,24 @@
+.bar {
+    background: #fb923c;
+    color: white;
+    margin: 6px 0;
+    padding:4px 8px;
+}
+
+.paprent-wide { width: 500px; border: 2px dashed #94a6b8; }
+.px { width: 200px; }  /* px는 절대 크기로 변하지 않음 */
+.percent { width: 50%; }
+.parent-narrow { background: cyan; width: 300px; }
+/* % 단위를 쓸 때에는 부몬의 크기가 고정되어져 있는 상태에서 쓰는게 좋음 */
+
+
+html { font-size: 16px; }  /* 브라우저 기본 값으로 font-size 16px이 들어가 있음 */
+.box { font-size: 20px; }
+.em { font-size: 1.5em; } /* 부모인 .box div의 글자 크기인 20px의 1.5배 */
+.rem { font-size: 1.5rem; } /* 부모는 무시하고, 최상단 html의 글자 클기의 1.5배 */
+                           /*
+                           rem을 쓰는 이유는 html의 font-size만 바꾸면
+                           화면 전체에 존재하는 폰트 크기를 일괄 변경 가능
+                            */
+
+.vw { width: 50vw; }

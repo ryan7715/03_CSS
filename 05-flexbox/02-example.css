@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 12px 20px;
+    background: #1e293b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    color: #fb923c;
+    font-weight: 800;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: inherit;  /* inherit 부모색을 상속빋겠다. */
+    text-decoration: none;
+}
+.container {
+    display: flex;
+}
+
+aside {
+    width: 200px;
+    padding: 16px;
+    background: #e2e8f0;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.course {
+    padding: 20px;
+    background: #fff7ed;
+    border: 2px solid #fdba74;
+    border-radius: 18px;
+}
+
+footer {
+    height: 50px;
+    border-top: 1px solid #1e293b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

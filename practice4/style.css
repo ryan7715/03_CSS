@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d4aa9;
+}
+
+.container {
+    background-color: black;
+    width: 100%;
+    max-width: 1300px;
+    height: 90%;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.card {
+    border-radius: 24px;
+
+}
+
+.flex-row {
+    display: flex;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container {
+    gap: 24px;
+    width: 50%;
+}
+
+.right-container {
+    gap: 24px;
+    width: 50%;
+}
+
+.header-card {
+    padding: 40px;
+    background-color: white;
+    justify-content: space-between;
+    height: calc((100% - 24px) / 3 * 2 );
+}
+.header-top {
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+.rating {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.badge {
+    background-color: orange;
+    font-size: 12px;
+    border-radius: 16px;
+    padding: 5px 12px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+.header-tittle {
+    font-size: 110px;
+    font-weight: 900;
+    color: #111;
+    text-align: center;
+}
+
+.header-bottom {
+    font-size: 26px;
+    padding-top: 24px;
+    border-top: 3px solid #111;
+    line-height: 1.2;
+}
+
+.photo-box {
+     height: calc((100% - 24px) / 3 );
+     gap: 24px;
+ }
+
+.img-card {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-row {
+    flex-grow: 1;
+}
+
+.nav-card {
+    flex-grow: 2;
+    background-color: #222;
+    color: white;
+    padding: 24px;
+    justify-content: center;
+}
+
+.nav-card ul {
+    list-style: none;
+}
+
+.nav-card ul li {
+    cursor: pointer;
+}
+
+.nav-card ul li:last-child { font-size: 20px; font-weight: 700; }
+
+
+.collab {
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.collab-box {
+    border-radius: 14px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 16px 20px;
+    color: #111;
+    text-align: center;
+}
+
+.box-yello { background-color: #ffc830; }
+.box-white {
+    background-color: white;
+    transform: rotate(-6deg);
+    margin-top: -25px;
+}
+
+.collab-cta {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer-card {
+    flex-grow: 2;
+    background-color: white;
+    padding: 24px;
+    justify-content: flex-end;
+    font-size: 18px;
+}
+
+
+.img-1 {
+        background-image: url("https://images.unsplash.com/photo-1662947475980-4ef86d494b20?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+}
+
+.img-2 {
+        background-image: url("https://images.unsplash.com/photo-1572029117144-b991c2eaee93?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+}
+
+.img-3 {
+    background-image: url("https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    flex-grow: 1;
+}
+
+.img-4 {
+    background-image: url("https://images.unsplash.com/photo-1792053346460-ea9c85c060e3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    flex-grow: 1;
+}
