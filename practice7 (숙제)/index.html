@@ -78,9 +78,24 @@
                         <input type="tel" id="Phone Number" class="form-input" />
                     </div>
                 </div>
-                <div>Receive updates and newsletters via email</div>
+                <div>
+                    <!--
+                    checkbox를 사용하되, 그 모양을 보여주고 싶지 않다면?
+                    checkbox에게 display: none을 부여함
+                    -->
+                    <label class="checkbox-wapper">
+                        <input type="checkbox" class="hidden-checkbox" />
+                        <div class="checkbox-box">
+                            <div class="checkmark-icon"></div>
+                        </div>
+                        Receive updates and newsletters via email
+                    </label>
+                </div>
             </div>
-            <div></div>
+            <div class="form-actions">
+                <button class="btn btn-outline">Cancel</button>
+                <button class="btn btn-primary">Save Change</button>
+            </div>
         </div>
     </div>
 </main>
